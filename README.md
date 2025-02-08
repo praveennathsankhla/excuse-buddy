@@ -1,5 +1,5 @@
 # Excuse Buddy 🎭
-
+<B> Live Link </B> excusebuddy.netlify.app
 A fun and interactive excuse generator with AI chat capabilities. Generate creative excuses, spin the wheel of excuses, or chat with Lazzy, your AI excuse companion!
 
 ## 🌟 Features
