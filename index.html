@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excuse Generator 3000 🎭</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Excuse Buddy 🎭</h1>
+        
+        <div class="controls">
+            <select id="category">
+                <option value="work">Late for Work 💼</option>
+                <option value="deadline">Missed Deadline ⏰</option>
+                <option value="birthday">Forgot Birthday 🎂</option>
+                <option value="gym">Skipped Gym 💪</option>
+                <option value="text">Didn't Text Back 📱</option>
+                <option value="breakup">Breakup Excuse 💔</option>
+                <option value="random">Random 🎲</option>
+            </select>
+            
+            <div class="wheel-container">
+                <div class="wheel" id="wheel">
+                    <div class="wheel-item">Work</div>
+                    <div class="wheel-item">Deadline</div>
+                    <div class="wheel-item">Text</div>
+                    <div class="wheel-item">Gym</div>
+                    <div class="wheel-item">Birthday</div>
+                    <div class="wheel-item">Breakup</div>
+                </div>
+                <div class="ticker"></div>
+            </div>
+            
+            <button id="spinWheel" class="spin-btn">Spin the Wheel 🎡</button>
+            <button id="generate" class="generate-btn">Generate Random Excuse ✨</button>
+            <button id="aiChat" class="ai-btn">Chat with Lazzy 🤖</button>
+        </div>
+
+        <div class="excuse-box">
+            <p id="excuse">Your excuse will appear here... 🤔</p>
+            <button id="share" class="share-btn">Share 📱</button>
+        </div>
+    </div>
+
+    <!-- AI Chat Modal -->
+    <div id="aiChatModal" class="modal">
+        <div class="modal-content">
+            <div class="chat-header">
+                <h3>Chat with AI 🤖</h3>
+                <span class="close">&times;</span>
+            </div>
+            <div class="chat-messages" id="chatMessages">
+                <div class="message ai">
+                    Hello! I can help you generate creative excuses. What's the situation? 😊
+                </div>
+            </div>
+            <div class="chat-input">
+                <input type="text" id="userInput" placeholder="Type your situation...">
+                <button id="sendMessage">Send</button>
+            </div>
+        </div>
+    </div>
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
