@@ -101,7 +101,7 @@ Make sure to:
 Praveen Nath Sankhla - [GitHub Profile](https://github.com/praveennathsankhla)
 
 Project Link: [https://github.com/praveennathsankhla/excuse-buddy](https://github.com/praveennathsankhla/excuse-buddy)
-
+?branch=[![Netlify Status](https://api.netlify.com/api/v1/badges/fb087096-4808-44e0-85d9-df4a69312e85/deploy-status)](https://app.netlify.com/sites/excusebuddy/deploys)
 ---
 
 Made with ❤️ and a lot of creative excuses!
